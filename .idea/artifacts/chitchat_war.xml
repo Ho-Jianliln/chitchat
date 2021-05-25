@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="chitchat:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>chitchat</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="chitchat-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="chitchat:war exploded" />
+    </root>
+  </artifact>
+</component>
